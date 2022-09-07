@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: grey;
+    height: 100%;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.box button {
+    font-size: 20px;
+    border-radius: .5em;
+    padding: 5px;
+    width: fit-content;
+}
+
+button:active {
+    background-color: #3e8341;
+}
+
+.box header {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.box #top {
+    background-color: #88f3ff;
+    flex: 0 1 auto;
+}
+
+.box .colorList {
+    font-size: 20px;
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    background-color: #88f3ff;
+    padding: 25px;
+    flex: 0 1 auto;
+}
+
+.box footer {
+    background-color: #88f3ff;
+    flex: 1 1 auto;
+    height: 8vh;
+}
+
+#downloadButton {
+    display: flex;
+    justify-content: center;
+}
+
+#center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#charizard {
+    height: fit-content;
+    width: fit-content;
+}
+
+#kakashi {
+    height: 22%;
+    width: 22%;
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
